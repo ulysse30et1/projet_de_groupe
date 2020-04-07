@@ -3,8 +3,19 @@ body {
     justify-content: center;
 }
 
+.separation {
+    border: 1px solid white;
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+
 /* couleurs des titres */
-#ancre1, #ancre2, #ancre3, #ancre4, #ancre5 {
+#ancre1,
+#ancre2,
+#ancre3,
+#ancre4,
+#ancre5 {
     color: white;
 }
 
@@ -19,7 +30,7 @@ body {
     background-color: #B7CE63;
 }
 
-/* header et son centenus */
+/* header et son contenus */
 header {
     width: 100%;
     height: 23%;
@@ -94,23 +105,29 @@ a {
     text-align: justify;
     margin: 0 20px;
 }
+
 .presentation1 {
     display: flex;
 }
+
 .presentation2 {
     width: 20%;
 }
+
 .presentation3 {
     width: 80%;
 }
+
 .img1 {
     width: 200px;
     height: 300px;
 }
+
 .img2 {
     width: 200px;
     height: 267px;
 }
+
 .quote {
     font-style: italic;
     text-align: center;
@@ -119,6 +136,7 @@ a {
     padding-top: 5%;
     padding-bottom: 5px;
 }
+
 .quote1 {
     text-align: end;
     margin-top: 0px;
@@ -242,34 +260,38 @@ a {
 .formulaire {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 9%;
+    height: 15%;
 }
 
-fieldset{
+fieldset {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;
     width: 90%;
-    height: 90%;
-    border: none;
+    height: 75%;
+    background-color: #78911A;
+    border-radius: 10px;
 }
 
 input {
     width: 70%;
+    background-color: rgb(218, 231, 168);
 }
 
 textarea {
     width: 50%;
     height: 50%;
+    background-color: rgb(218, 231, 168);
 }
 
 .titre_form {
     margin: 0;
 }
 
-.info{
+.info {
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -277,14 +299,16 @@ textarea {
     flex-direction: column;
 }
 
-.question{
+.question {
     width: 50%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
-button{
+
+button {
     width: 20%;
+    background-color: rgb(218, 231, 168);
 }
 
 /* footer */
@@ -294,6 +318,7 @@ footer {
     margin: 0 20px;
     text-align: center;
 }
+
 .img3 {
     width: 70px;
     height: 70px;
