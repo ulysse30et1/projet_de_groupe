@@ -15,7 +15,7 @@ body {
     flex-direction: column;
 
     width: 90vw;
-    height: 300vh;
+    height: auto;
     background-color: #B7CE63;
 }
 
