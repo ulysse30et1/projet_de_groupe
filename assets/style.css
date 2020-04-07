@@ -3,6 +3,11 @@ body {
     justify-content: center;
 }
 
+/* couleurs des titres */
+#ancre1, #ancre2, #ancre3, #ancre4, #ancre5 {
+    color: white;
+}
+
 /* container principal */
 .container {
     display: flex;
@@ -11,7 +16,7 @@ body {
 
     width: 90vw;
     height: 300vh;
-    background-color: dimgrey;
+    background-color: #B7CE63;
 }
 
  /* header et son centenus */
@@ -76,14 +81,49 @@ a {
 
 /* partie presentation de l'equipe + photo */
 .presentation {
-    width: 100%;
+    width: 95%;
     height: 10%;
+    text-align: justify;
+    margin: 0 20px;
+}
+.presentation1 {
+    display: flex;
+}
+.presentation2 {
+    width: 20%;
+}
+.presentation3 {
+    width: 80%;
+}
+.img1 {
+    width: 200px;
+    height: 300px;
+}
+.img2 {
+    width: 300px;
+    height: 200px;
+}
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5px;
+}
+.quote1 {
+    text-align: end;
+    margin-top: 0px;
+    margin-right: 80px;
 }
 
 /* partie actualités (pâques) */
 .actualites {
-    width: 100%;
+    width: 95%;
     height: 20%;
+    margin: 0 20px;
+    margin-top: 22%;
+    text-align: justify;
 }
 
 /* partie creation */
@@ -179,4 +219,8 @@ a {
 footer {
     width: 100%;
     height: 8%;
+}
+.img3 {
+    width: 70px;
+    height: 70px;
 }
