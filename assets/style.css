@@ -17,37 +17,61 @@ body {
  /* header et son centenus */
  header {
      width: 100%;
-     height: 28%;
+     height: 23%;
      display: flex;
+     background-color: #B7CE63;
  }
 .head1 {
-    width: 68%;
+    width: 63%;
     background-image: url(images/womanflowers.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .head2 {
-    width: 32%;
+    width: 37%;
+    padding: 2%;
+}
+.separ {
+    border: 1px solid white;
+    width: 50%;
+    margin: 0 25%;
 }
  h1 {
      color: white;
-     margin-left: 12%;
+     margin-left: 11%;
      margin-top: 8%;
      margin-bottom: 5px;
-     font-size: 45px;
+     font-size: 40px;
  }
  .slogan {
      color: white;
-     font-size: 17px;
+     font-size: 15px;
      font-style: italic;
      margin-left: 5%;
      margin-top: 5px;
+ }
+ .schedule {
+     text-decoration: underline;
  }
 
 /* barre de navigation */
 nav {
     width: 100%;
-    height: 3%;
+    height: auto;
+    background-color: #78911A;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    padding-left: 0;
+}
+a {
+    font-size: 18px;
+    margin: 0 50px;
+    color: #B7CE63;
 }
 
 /* partie presentation de l'equipe + photo */
