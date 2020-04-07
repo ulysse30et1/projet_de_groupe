@@ -187,18 +187,24 @@ a {
 fieldset{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
     width: 90%;
     height: 90%;
     border: none;
 }
 
 input {
-    width: 60%;
+    width: 70%;
 }
 
 textarea {
     width: 50%;
     height: 50%;
+}
+
+.titre_form {
+    margin: 0;
 }
 
 .info{
@@ -212,8 +218,11 @@ textarea {
 .question{
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
+}
+button{
+    width: 20%;
 }
 
 /* footer */
