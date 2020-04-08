@@ -3,9 +3,7 @@ body {
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-p{
-    font-size: ;
-}
+
 .separation {
     border: 1px solid white;
     width: 50%;
@@ -229,7 +227,7 @@ a {
     height: 19%;
 }
 
-.élegance {
+.elegance {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -340,7 +338,6 @@ textarea {
     width: 50%;
     display: flex;
     justify-content: space-around;
-    align-items: space-around;
     flex-direction: column;
 }
 
