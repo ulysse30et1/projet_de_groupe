@@ -3,7 +3,9 @@ body {
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+p{
+    font-size: ;
+}
 .separation {
     border: 1px solid white;
     width: 50%;
@@ -186,8 +188,6 @@ a {
 .paques {
     height: 100%;
     width: 15%;
-    background-color: blue;
-    border: 1px solid black;
 }
 
 .images_paques {
