@@ -14,6 +14,9 @@ p{
 
     margin: 3% 0;
 }
+b {
+    font-weight: normal;
+}
 
 /* couleurs des titres */
 #ancre1,
